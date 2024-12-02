@@ -21,7 +21,7 @@ namespace ErickGrandaP2
 
         }
 
-        private void OnclickedRecarga(object sender, EventArgs e) 
+        private async void OnclickedRecarga(object sender, EventArgs e) 
         {
             Recarga recarga = new Recarga
             {
@@ -29,6 +29,16 @@ namespace ErickGrandaP2
                 Telefono = 0994731960
             };
             bool guardar_recarga = _recargaRepository.CrearRecarga(recarga);
+
+            if (guardar_recarga)
+            {
+                await DisplayAlert("Alerta", "Recarga hecha", "OK");
+            }
+            else 
+            {
+                await DisplayAlert("Alerta", "Algo salio mal", "OK");
+            }
+
         
         }
 
