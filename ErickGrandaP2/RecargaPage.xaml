@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ErickGrandaP2.RecargaPage"
+             Title="RecargaPage">
+    
+    <StackLayout Padding="20">
+        
+        <Label x:Name="egranda_label1" Text="Ingrese el numero de telefono" FontSize="16" HorizontalOptions="Start" />
+        <Entry x:Name="egranda_label1" Placeholder="Numero de telefono" Keyboard="Numeric" />
+
+        <Label x:Name="egranda_label2" Text="Ingrese su nombre" FontSize="16" HorizontalOptions="Start" />
+        <Entry x:Name="egranda_label2" Placeholder="Nombre" />
+
+        <Button x:Name="egranda_button1" Text="Recarga" Clicked="OnclickedRecarga"/>
+
+    </StackLayout>
+</ContentPage>
