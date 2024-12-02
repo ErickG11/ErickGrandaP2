@@ -10,9 +10,9 @@
 
     <Style x:Key="EstiloLabel" TargetType="Label">
         <Setter Property="FontSize" Value="24" />
-        <Setter Property="FontSize" Value="24" />
-        <Setter Property="FontSize" Value="24" />
-
+        <Setter Property="TextColor" Value="Red" />
+        <Setter Property="HorizontalTextAlignment" Value="Center" />
+        <Setter Property="VerticalTextAlignment" Value="Center" />
     </Style>
 
     <Style TargetType="IndicatorView">

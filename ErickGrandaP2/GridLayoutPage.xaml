@@ -6,10 +6,10 @@
     <Grid>
         <Grid RowDefinitions="*,*" ColumnDefinitions="*,*" RowSpacing="0" ColumnSpacing="0">
             
-            <Label Grid.Row="0" Grid.Column="0" Text="Erick" HorizontalOptions="Center" VerticalOptions="Center"/>
-            <Label Grid.Row="0" Grid.Column="1" Text="Mateo"  HorizontalOptions="Center" VerticalOptions="Center"/>
-            <Label Grid.Row="1" Grid.Column="0" Text="Granda"  HorizontalOptions="Center" VerticalOptions="Center"/>
-            <Label Grid.Row="1" Grid.Column="1" Text="Delgado"  HorizontalOptions="Center" VerticalOptions="Center"/>
+            <Label Grid.Row="0" Grid.Column="0" Text="Erick" FontSize="24" HorizontalOptions="Center" VerticalOptions="Center"/>
+            <Label Grid.Row="0" Grid.Column="1" Text="Mateo" FontSize="24 HorizontalOptions="Center" VerticalOptions="Center"/>
+            <Label Grid.Row="1" Grid.Column="0" Text="Granda"  Style="{StaticResource EstiloLabel}"/>
+            <Label Grid.Row="1" Grid.Column="1" Text="Delgado"  Style="{StaticResource EstiloLabel}"/>
  
         </Grid>
 
