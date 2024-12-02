@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ErickGrandaP2.GridLayoutPage"
+             Title="GridLayoutPage">
+    <Grid>
+        <Grid RowDefinitions="*,*" ColumnDefinitions="*,*" RowSpacing="0" ColumnSpacing="0">
+            
+            <Label Grid.Row="0" Grid.Column="0" Text="Erick" HorizontalOptions="Center" VerticalOptions="Center"/>
+            <Label Grid.Row="0" Grid.Column="1" Text="Mateo"  HorizontalOptions="Center" VerticalOptions="Center"/>
+            <Label Grid.Row="1" Grid.Column="0" Text="Granda"  HorizontalOptions="Center" VerticalOptions="Center"/>
+            <Label Grid.Row="1" Grid.Column="1" Text="Delgado"  HorizontalOptions="Center" VerticalOptions="Center"/>
+ 
+        </Grid>
+
+
+    </Grid>
+    
+</ContentPage>
